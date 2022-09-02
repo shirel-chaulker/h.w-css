@@ -1,0 +1,40 @@
+.footContainer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+  padding: 30px;
+}
+
+.top {
+  margin-bottom: 20px;
+  font-size: x-large;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.item {
+  margin-left: 170px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: aqua;
+}
+
+.last {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
